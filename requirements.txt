@@ -1,1 +1,17 @@
-# Add your project dependencies here
+langchain
+langchain_community
+langchain_groq
+langchain-huggingface
+sentence-transformers
+chromadb
+PyPDF2
+pymupdf
+streamlit
+groq
+phi
+duckduckgo-search
+scikit-learn
+requests
+pandas
+streamlit
+google-generativeai

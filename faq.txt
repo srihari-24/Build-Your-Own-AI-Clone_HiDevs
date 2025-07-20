@@ -1,0 +1,105 @@
+==== FAQ Database ====
+
+Q: What is HiDevs?
+A: HiDevs is an AI-powered productivity platform that helps individuals and teams build, deploy, and manage AI-driven applications quickly and efficiently.
+
+Q: How do I reset my password?
+A: To reset your password, click “Forgot Password” on the login page, enter your registered email address, and follow the instructions sent to your email.
+
+Q: Which AI models are supported?
+A: HiDevs supports multiple AI models, including Llama 3, GPT-4, and custom models via the Groq API or Hugging Face.
+
+Q: Is my data secure on HiDevs?
+A: Yes. HiDevs uses AES-256 encryption for data at rest and SSL/TLS encryption for data in transit.
+
+Q: Can I use HiDevs for free?
+A: Yes, HiDevs offers a free tier for individuals and students, with paid plans for advanced features and team usage.
+
+==== Customer Support Database ====
+
+Ticket #98324  
+User: john_doe@gmail.com  
+Subject: Integration Issue  
+Message:  
+Hi, I'm trying to integrate my Slack workspace with HiDevs. The connection fails with a 401 error. What should I do?  
+Response:  
+Hi John, a 401 error usually means an authentication issue. Please ensure your API token is valid and has the necessary permissions. If the issue persists, try reconnecting your Slack workspace from the integrations page.
+
+Ticket #98415  
+User: priyanka.k@company.com  
+Subject: Slow App Deployment  
+Message:  
+Hi, my GenAI app takes a long time to deploy. Is there a way to speed up the process?  
+Response:  
+Hi Priyanka, deployment speed depends on the size of your application and current server load. For faster deployments, ensure your project files are optimized and avoid large, unused dependencies.
+
+==== Product Documentation Database ====
+
+Section: AI App Deployment
+
+To deploy your AI application on HiDevs:
+1. Login to your account.
+2. Click on “Projects” in the sidebar.
+3. Select your project and click “Deploy.”
+4. Choose your deployment environment (Dev, Test, Production).
+5. Monitor deployment status in the dashboard.
+
+Section: Connecting to Groq API
+
+To use the Groq API with HiDevs:
+- Navigate to the Integrations page.
+- Click “Add New Integration” and select “Groq API.”
+- Enter your Groq API Key.
+- Click “Connect.”
+- Once connected, you can select Groq as your LLM provider in project settings.
+
+Section: Data Security Best Practices
+
+HiDevs recommends the following:
+- Use strong, unique passwords.
+- Enable two-factor authentication.
+- Regularly review your account activity.
+- Do not share your API keys with unauthorized users.
+
+==== Support Ticket Database ====
+
+Ticket #99200  
+User: alice.w@company.com  
+Issue: Unable to access Knowledge Base  
+Message:  
+When I try to search in the knowledge base, I get a “No Results Found” error, even though I’ve uploaded documents.  
+Support Response:  
+Hi Alice, please make sure your documents were processed correctly. It may take a few minutes for new documents to be indexed. If the issue continues, try re-uploading or contact support for further help.
+
+Ticket #99310  
+User: rahul.m@startup.com  
+Issue: API Rate Limit Exceeded  
+Message:  
+I am getting an “API Rate Limit Exceeded” error during heavy usage.  
+Support Response:  
+Hi Rahul, our free plan includes up to 1000 API calls per month. To increase your quota, consider upgrading to a paid plan. You can monitor your usage in the dashboard.
+
+==== Product Feature Descriptions ====
+
+- **AI Flow Builder**: A visual, drag-and-drop interface to create end-to-end AI workflows without coding.
+- **CodeQuest**: An interactive environment for testing AI code snippets and integrating APIs.
+- **LeetPrompt**: A prompt engineering tool to test, optimize, and version prompts for various LLMs.
+- **Personalized Roadmap**: AI-generated learning plans tailored to your skill level and project goals.
+- **Dave**: An AI assistant that provides instant guidance, documentation search, and project tips.
+
+==== Release Notes ====
+
+Version 2.3.1 (2025-07-10):
+- Improved vector search accuracy for knowledge base queries.
+- Added support for Llama 3-70B model via Groq.
+- Enhanced dashboard UI for monitoring deployments and usage.
+
+Version 2.2.8 (2025-05-14):
+- Introduced CodeQuest for hands-on AI development.
+- Security patch for authentication module.
+
+==== Company Policies ====
+
+- **Privacy Policy**: HiDevs never shares user data with third parties without explicit consent.
+- **Support SLA**: All support tickets are responded to within 24 hours on business days.
+- **Data Retention**: Uploaded documents are retained for 90 days unless deleted by the user.
